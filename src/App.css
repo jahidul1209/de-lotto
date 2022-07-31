@@ -1,0 +1,4439 @@
+
+/* New template */
+
+h1, p{
+  font-family: "Cooper Black", serif;
+}
+a {
+  color: #0d6efd;
+  text-decoration: none!important;
+}
+.body {
+  display: inline-block;
+}
+.header-menu {
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menuClass img {
+  width: 105px;
+}
+.logoclass img {
+  width: 60%;
+}
+
+/* Menu */
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 50px!important;
+  margin-top: 8%;
+  margin-right: 3%;
+  visibility: hidden;
+}
+
+.sidenav a {
+  padding: 8px 30px 11px 70px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  font-family: "Cooper Black", serif;
+}
+
+.sidenav a:hover {
+  color: #ce4721;
+}
+.dropdown-content {display: none;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+img.Group1140 {
+  width: 65%;
+  padding: 0px;
+  cursor: pointer;
+}
+img.Group1140:hover {
+  width: 65%;
+  padding: 2px;
+}
+.menuButton a {
+  padding: 0px;
+}
+img.png-transparent {
+  width: 12%;
+}
+.menuButton {
+  padding-top: 20px;
+  padding-bottom: 62px;
+  padding-left: 38px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.dropdown-content {
+  display: none;
+  padding-left: 50px;
+  margin-top: -18px;
+  margin-bottom: -18px;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+/* After Header Section */
+.dolerTime {
+  position: relative;
+}
+.dolerTime img {
+  width: 65%;
+  margin-top: -45px;
+}
+.timeLeft {
+  padding-top: 50px;
+}
+h1.dolarClass {
+  display: inline-block;
+  position: absolute;
+  top: 8%;
+  left: 40%;
+  font-size: 75px;
+  color: #ce4721;
+}
+.ttimer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 70px;
+}
+
+/* Buy Tickets */
+.buyTicketButton {
+  display: inline;
+  position: relative;
+}
+
+.buyTicketButton h1 {
+  display: inline;
+  position: absolute;
+  top: -31%;
+  left: 8%;
+  color: #ce4721;
+  font-size: 25px;
+  cursor: pointer;
+  padding: 17px;
+  border-radius: 50px;
+}
+.buyTicketButton img {
+  width: 20%;
+  padding-top: 37px;
+}
+.buyTicketButton h1:hover {
+  transition: .3s ease-in-out;
+  color: #316a1f;
+  background-image: linear-gradient(
+    178deg
+    , #ffe7492b , #ff920c52);
+}
+
+/* History Section tab button */
+.history-Section {
+  padding-top: 65px;
+  padding-bottom: 30px;
+}
+ul.mb-3.nav.nav-tabs {
+  display: inline-flex;
+  flex-wrap: wrap;
+  background: #0b5ed7;
+  padding: 5px;
+  border-radius: 50px!important;
+  border: 3px solid white;
+}
+.nav-tabs {
+  border-bottom: none!important;
+}
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  justify-content: center;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #0b5ed7!important;
+  border-color: #0a53be;
+  font-size: 25px;
+  background-image: linear-gradient(  180deg , #c0eef163 , #0092b5);
+  box-shadow: 0px 1px 0px 1px #88f6f9!important;
+  padding: 8px 35px;
+  font-family: "Cooper Black", serif;
+  border-radius: 30px!important;
+}
+.nav-link {
+  color: #fff!important;
+  font-size: 25px!important;
+  background-color: #0d6efd85;
+  border-color: #0d6efd;
+  padding: 8px 35px!important;
+  font-family: "Cooper Black", serif;
+  border-radius: 30px!important;
+}
+
+/* his */
+thead.history-heading tr th {
+  font-size: 22px;
+  font-family: "Cooper Black", serif;
+  color: #ce4721;
+}
+
+tbody.history-body tr th, td {
+  color: white;
+  font-size: 20px;
+  font-family: "Cooper Black", serif;
+}
+.history {
+  overflow: auto;
+  height: 420px;
+  direction: ltr;
+  width: 97%;
+}
+.history-section {
+  padding: 35px 0px 185px;
+}
+.history::-webkit-scrollbar {
+  width: 20px;
+}
+.finsh h1 {
+  font-size: 45px;
+  padding-bottom: 30px;
+  padding-top: 25px;
+  color: #316a1f;
+}
+/* Track */
+.history::-webkit-scrollbar-track {
+  box-shadow: inset 10px 0 20px #0b5ed7; 
+  border-radius: 15px;
+}
+ 
+/* Handle */
+.history::-webkit-scrollbar-thumb {
+  background: linear-gradient(  90deg , #c0eef1 , #0092b5); 
+  border-radius: 15px;
+}
+
+/* Handle on hover */
+.history::-webkit-scrollbar-thumb:hover {
+  background:linear-gradient(  90deg , #0b5ed7 , #df9e8cf8); 
+  transition: 0.25s;
+}
+
+/* Tab end */
+
+h1.dolarhistory {
+  font-size: 90px;
+  color: #ce4721;
+  padding-bottom: 25px;
+}
+.prizePot {
+  padding-top: 0px;
+  color: white;
+}
+img.Group11244 {
+  width: 22%;
+  margin: 0px 40px;
+}
+h1.round61 {
+  position: absolute;
+  top: 46px;
+  z-index: 99;
+  font-size: 33px;
+  left: -30%;
+}
+
+
+img.Group8623 {
+  width: 9%;
+  opacity: 0.9;
+  padding: 5px;
+}
+img.Group8623:hover {
+  width: 9%;
+  opacity: 1;
+  transition: 0.3s;
+  padding: 0px;
+  cursor: pointer;
+}
+img.Group8645 {
+  width: 9%;
+  opacity: 0.9;
+  padding: 5px;
+}
+img.Group8645:hover {
+  width: 9%;
+  opacity: 1;
+  padding: 0px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.roundClass {
+  position: relative;
+  display: inline;
+}
+h1.round61 {
+  position: absolute;
+  top: -13px;
+  z-index: 99;
+  font-size: 33px;
+  left: 33%;
+  color: #316a1f;
+}
+/* Drawn  */
+h1.drawn {
+  font-size: 28px;
+  color: #ce4721;
+}
+/* Winning Numbers */
+img.Group11253 {
+  width: 22%;
+  padding-top: 18px;
+}
+.winningNumber {
+  position: relative;
+  display: inline;
+}
+.winningNumber h1 {
+  font-size: 19px;
+  position: absolute;
+  display: inline;
+  left: 32px;
+  top: 48px;
+  color: #377235;
+  cursor: pointer;
+}
+.winningNumber h1:hover {
+  overflow: hidden;
+  transition: 0.25s;
+  color: #316a1f;
+}
+img.Group1125 {
+  width: 10%;
+  padding: 12px;
+}
+/* Your Tickets  */
+img.Group12533 {
+  width: 30%;
+}
+.ticketImage {
+  padding-top: 165px;
+  position: relative;
+  padding-bottom: 30px;
+}
+.ticketImage h1 {
+  position: absolute;
+  display: inline-block;
+  left: 38%;
+  top: 64%;
+  transform: translate(38%, 64%);
+  font-size: 28px;
+  border-radius: 18%;
+  padding: 10px;
+  color: #447942;
+}
+.ticketImage h1:hover {
+  position: absolute;
+  display: inline-block;
+  left: 38%;
+  top: 64%;
+  transform: translate(38%, 64%);
+  font-size: 28px;
+  color: #316a1f;
+  border-radius: 18%;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.25s;
+  background-image: radial-gradient(#316a1f7a 0%, #87bb01 60%);
+}
+h1.youhabe {
+  font-size: 50px;
+  color: #ce4721;
+}
+
+h1.youwin {
+  font-size: 48px;
+  padding-top: 10px;
+  color: white;
+}
+
+.buydeLotto {
+  position: relative;
+  display: inline;
+}
+
+.buydeLotto img {
+  width: 21%;
+  margin-top: 15px;
+}
+
+h1.buydeText {
+  color: #ce4721;
+  position: absolute;
+  font-size: 25px;
+  left: 3%;
+  top: -117%;
+  transform: translate(3%, 17%);
+  padding: 15px;
+}
+h1.buydeText:hover {
+  color: #316a1f;
+  position: absolute;
+  font-size: 25px;
+  left: 3%;
+  top: -117%;
+  transform: translate(3%, 17%);
+  padding: 15px;
+  background-image: linear-gradient( 
+178deg
+, #ffe74926 , #ff920c47);
+  border-radius: 30px;
+  cursor: pointer;
+}
+img.Group1109\.png {
+  display: none;
+  }
+  img.Group11092\.png {
+  display: none;
+  }
+  
+/* How to Play */
+.playStar img {
+  width: 10%;
+}
+
+.playStar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
+p.erty {
+  font-size: 28px;
+  padding: 0px 100px 30px;
+  color: white;
+}
+.playStar p {
+  font-size: 35px;
+  color: white;
+}
+span.\35 0Delotto {
+  color: #ce4721;
+  font-size: 40px;
+}
+h1.playh1 {
+  font-size: 65px;
+  color: #ce4721;
+  padding-bottom: 30px;
+  padding-top: 40px;
+}
+.cloudSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 50px;
+}
+
+img.cludImge {
+  width: 76%;
+}
+
+.cloudClass {
+  display: inline;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+h1.cloudh1 {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  font-size: 30px;
+  color: #ce4721;
+}
+h1.cloudh2 {
+  position: absolute;
+  top: 30%;
+  left: 27%;
+  font-size: 30px;
+  color: #377235;
+}
+p.cloudp {
+  position: absolute;
+  top: 10%;
+  padding: 96px;
+}
+
+/* Pool section */
+img.poolImge {
+  width: 65%;
+}
+.Group11399 {
+  position: absolute;
+  top: 16%;
+  left: 25%;
+}
+
+img.poolGroup11399 {
+  width: 70%;
+}
+
+.Group125099 {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.prizePoll {
+  padding-top: 150px;
+  display: inline-block;
+  position: relative;
+}
+.Group11399 {
+  position: absolute;
+  top:28%;
+  left: 25%;
+  cursor: pointer;
+}
+h1.allocations {
+  position: absolute;
+  font-size: 22px;
+  color: white;
+  top: 24%;
+  left: 36%;
+}
+img.poolGroup11399 {
+  width: 70%;
+}
+
+.Group125099 {
+  display: flex;
+  flex-wrap: nowrap;
+  position: absolute;
+  top: 65%;
+}
+
+img.poolImge533 {
+  width: 58%;
+}
+
+.Group12o99 {
+  text-align: right;
+}
+
+.Group52o99 {
+  text-align: left;
+}
+.matchhwr {
+  position: absolute;
+  top: 73%;
+  text-align: left;
+  left: 41%;
+}
+.match0523 {
+  text-align: left;
+  position: absolute;
+  left: 32%;
+  top: 66%;
+  cursor: pointer;
+}
+.match0523:hover .match04{
+  color: #377235;
+  transition: 0.23s;
+}
+.match0523:hover .ten\%{
+  color: #377235;
+  transition: 0.23s;
+}
+h1.match05 {font-size: 26px;line-height: 6px;color: white;}
+
+h1.seventy\% {
+    font-size: 32px;
+    color: white;
+}
+
+.match751 {
+  position: absolute;
+  text-align: left;
+  top: 67%;
+  left: 61%;
+  cursor: pointer;
+}
+.match751:hover .matchde{
+  color: #377235;
+  transition: 0.23s;
+}
+.match751:hover .tenty\%{
+  color: #377235;
+  transition: 0.23s;
+}
+h1.match05 {font-size: 26px;line-height: 6px;color: white;}
+
+h1.seventy\% {
+    font-size: 32px;
+    color: white;
+}
+
+h1.match04 {
+    font-size: 21px;
+    line-height: 0;
+    color: white;
+}
+
+h1.ten\% {
+    font-size: 25px;
+    color: white;
+}
+h1.matchde {
+  font-size: 25px;
+  color: white;
+  line-height: 0;
+}
+
+h1.tenty\% {
+  font-size: 25px;
+  color: white;
+}
+
+.matchhwr:hover .match05{
+  color: #377235;
+  transition: 0.23s;
+}
+.matchhwr:hover .seventy\%{
+  color: #377235;
+  transition: 0.23s;
+
+}
+/* Prize Found Section */
+img.Group113963 {
+  width: 100%;
+}
+.prizeFunds{
+  position: relative;
+}
+h1.PrizeFounds {
+  position: absolute;
+  top: 20%;
+  left: 27%;
+  transform: translate(16%, -18%);
+  font-size: 65px;
+  color: #ce4721;
+}
+h1.PrizeFounds {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -18%);
+  font-size: 65px;
+  color: #ce4721;
+}
+p.bushPaid {
+  position: absolute;
+  top: 39%;
+  left: 15%;
+  font-size: 28px;
+  padding-right: 30px;
+  color: white;
+}
+
+p.afterPaid {
+  position: absolute;
+  top: 59%;
+  left: 15%;
+  font-size: 28px;
+  padding-right: 30px;
+  color: white;
+}
+
+/* Our team Section */
+
+
+img.Group11336 {
+  width: 88%;
+}
+
+.team0101 {
+  text-align: center;
+  position: relative;
+}
+h1.nuberrr {
+  position: absolute;
+  top: 26%;
+  left: 50%;
+  font-size: 45px;
+  transform: translate(-50%, 15%);
+  color: #1b8694;
+}
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+h1.teamName {
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  font-size: 19px;
+  color: #377235;
+}
+.teamName {
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  color: #377235;
+  text-align: center;
+}
+h1.teamName1 {
+  font-size: 18px;
+}
+h1.teamName2 {
+  font-size: 18px;
+  padding: 0px 25px;
+}
+h1.teamName3 {
+  font-size: 18px;
+  padding: 0px 18px;
+}
+h1.teamName4 {
+  font-size: 18px;
+  padding: 0px 18px;
+}
+h1.titlemember1 {
+  position: absolute;
+  top: 73%;
+  left: 40%;
+  font-size: 15px;
+  color: #f3f7f3;
+}
+h1.titlemember2 {
+  position: absolute;
+  top: 73%;
+  left: 1%;
+  font-size: 12px;
+  color: #f3f7f3;
+}
+h1.titlemember3 {
+  position: absolute;
+  top: 73%;
+  left: 3%;
+  font-size: 12px;
+  color: #f3f7f3;
+}
+
+h1.titlemember4 {
+  position: absolute;
+  top: 73%;
+  left: 11%;
+  font-size: 13px;
+  color: #f3f7f3;
+}
+img.linkedin {
+  position: absolute;
+  bottom: 4%;
+  width: 11%;
+  left: 46%;
+  padding: 5px;
+  cursor: pointer;
+}
+img.linkedin:hover{
+  padding: 0px;
+  transition: 0.25s;
+}
+
+img.\35 e6888f56d3b380006f21fdd {
+  position: absolute;
+  width: 30%;
+  left: 39%;
+  top: 25%;
+}
+h1.ourteams {
+  font-size: 65px;
+  color: #ce4721;
+  padding-bottom: 75px;
+}
+
+/* Question Section */
+img.Group11368 {
+  width: 100%;
+}
+.Stills {
+  padding-top: 185px;
+  padding-left: 15px;
+  text-align: center;
+}
+p.quesp span {
+  text-decoration: underline;
+}
+h1.quesh1 {
+  color: #ce4721;
+  font-size: 52px;
+}
+
+p.quesp {
+  color: white;
+  font-size: 28px;
+}
+
+/* Footer Section{} */
+.footer {
+  padding-top: 75px;
+}
+
+img.Group11401 {
+  width: 8%;
+  padding: 12px;
+  cursor: pointer;
+}
+img.Group11401:hover {
+    transition: 0.25s;
+  padding: 18px;
+}
+
+h1.allright {
+  font-size: 27px;
+  color: white;
+  padding-bottom: 10px;
+}
+
+
+/* model buy tickets pop up  */
+.buyticketpop {
+  text-align: center;
+  display: inline;
+}
+.buypopImage {
+  position: relative;;
+}
+h1.buyticketh1 {
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translate(-50%, 7px);
+  font-size: 43px;
+  color: white;
+}
+.insufficient {
+  display: inline-block;
+  text-align: left;
+  position: absolute;
+  top: 47%;
+  left: 55%;
+  transform: translate(-55%, 40%);
+}
+h1.insufficienth1 {
+  font-size: 18px;
+  color: #ce4721;
+}
+h1.insufficiendeth1 {
+  font-size: 19px;
+  padding-right: 30px;
+  color: white;
+}
+.costde {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -48%);
+}
+.costde {
+  display: flex;
+  align-items: center;
+  padding: 80px;
+  position: absolute;
+  top: 72%;
+  left: 50%;
+  transform: translate(-50%, -48%);
+}
+h1.buyBotton {
+  display: inline-block;
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translate(-47%, -0%);
+  color: #306a1fe7;
+  font-size: 42px;
+}
+h1.buyBotton:hover {
+  display: inline-block;
+  position: absolute;
+  cursor: pointer;
+  color: #316a1f;
+}
+h1.costh1 {
+  font-size: 20px;
+  color: white;
+  padding-right: 40px;
+}
+
+h1.costprice {
+  color: white;
+  font-size: 30px;
+  padding-left: 63px;
+}
+.Group21396 {
+  width: 45%;
+}
+.closeBotton {
+  width: 8%;
+  top: 0%;
+  position: absolute;
+  right: 26%;
+  cursor: pointer;
+}
+.buyticketpop{
+  display: none;
+  position: absolute;
+    width: 68%;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -36%);
+    transition: 0.25s;
+}
+/* .increament-decreament */
+.increament-decreament {
+  position: absolute;
+  top: 39%;
+  left: 50%;
+  transform: translate(-50%, -14%);
+}
+
+.increament-decreament label {
+  position: absolute;
+  top: -105%;
+  left: 43%;
+  font-size: 45px;
+  font-family: "Cooper Black", serif;
+  color: #5ba701;
+}
+
+img.increament {
+  width: 19%;
+  margin-left: 15px;
+  cursor: pointer;
+}
+img.decreament {
+  width: 19%;
+  margin-right: 15px;
+  cursor: pointer;
+}
+/* end */
+/*      Responsive */
+
+
+@media only screen and (max-width: 375px) {
+  h1, p{
+    font-family: "Cooper Black", serif;
+  }
+  .menuClass img {
+    width: 50px;
+  }
+  .timeLeft {
+    padding-top: 0px;
+}
+.ttimer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0px;
+}
+.ttimer h1 {
+  font-size: 25px;
+}
+.dolerTime img {
+  width: 90%;
+  margin-top: -15px;
+}
+h1.dolarClass {
+  display: inline-block;
+  position: absolute;
+  top: 9%;
+  left: 35%;
+  font-size: 34px;
+  color: #ce4721;
+}
+.container.history-section {
+  padding-bottom: 15px;
+}
+/* Buy Tickets */
+.buyTicketButton img {
+  width: 50%;
+  padding-top: 45px;
+}
+.buyTicketButton h1 {
+  display: inline;
+  position: absolute;
+  top: 0%;
+  left: 3%;
+  color: #ce4721;
+  font-size: 20px;
+}
+
+/* History  */
+.winningNumber h1 {
+  font-size: 16px;
+  position: absolute;
+  display: inline;
+  left: 21px;
+  top: 33px;
+  color: #377235;
+  cursor: pointer;
+}
+.winningNumber h1:hover {
+  position: absolute;
+  display: inline;
+  color: #316a1f;
+  cursor: pointer;
+}
+.btn-primary {
+padding: 5px!important;
+}
+
+h1.dolarhistory {
+  font-size: 35px;
+  color: #ce4721;
+}
+img.Group11244 {
+  width: 40%;
+  margin: 0px 2px;
+}
+h1.round61 {
+  position: absolute;
+  top: -5px;
+  z-index: 99;
+  font-size: 21px;
+  left: 31%;
+  color: #316a1f;
+}
+img.Group8645 {
+  width: 20%;
+  opacity: 0.9;
+  padding: 5px;
+}
+img.cludImge {
+  width: 65%;
+}
+img.Group8645:hover {
+  width: 20%;
+  opacity: 1;
+  padding: 4px;
+  transition: 0.15s;
+}
+img.Group8623 {
+  width: 20%;
+  opacity: 0.9;
+  padding: 5px;
+}
+img.Group8623:hover {
+  width: 20%;
+  opacity: 1;
+  padding: 4px;
+  transition: 0.15s;
+}
+h1.drawn {
+  font-size: 18px;
+  color: #ce4721;
+}
+img.Group11253 {
+  width: 55%;
+  padding-top: 0px;
+}
+/* History Section tab button */
+.history-Section {
+  padding-top: 56px;
+}
+ul.mb-3.nav.nav-tabs {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  background: #0b5ed7;
+  padding: 5px;
+  border-radius: 50px!important;
+  border: 3px solid white;
+}
+.nav-tabs {
+  border-bottom: none!important;
+}
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  justify-content: center;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #0b5ed7!important;
+  font-size: 15px!important;
+  background-image: linear-gradient( 
+180deg
+, #c0eef163 , #0092b5);
+  box-shadow: 0px 1px 0px 1px #88f6f9!important;
+  padding: 5px 10px!important;
+  font-family: "Cooper Black", serif;
+  border-radius: 30px!important;
+}
+.nav-link {
+  color: #fff!important;
+  font-size: 15px!important;
+  background-color: #0d6efd85;
+  border-color: #0d6efd;
+  padding: 5px 10px!important;
+  font-family: "Cooper Black", serif;
+  border-radius: 30px!important;
+}
+.finsh h1 {
+  font-size: 26px;
+  padding-bottom: 15px;
+  padding-top: 25px;
+  color: #316a1f;
+}
+/* Tab end */
+/* Tickets Section */
+img.Group12533 {
+  width: 34%;
+}
+.ticketImage {
+  padding-top: 0px;
+  position: relative;
+  padding-bottom: 0px;
+}
+.ticketImage h1 {
+  position: absolute;
+  display: inline-block;
+  left: 37%;
+  top: 51%;
+  transform: translate(30%, 58%);
+  font-size: 10px;
+  border-radius: 18%;
+  padding: 3px;
+  color: #447942;
+}
+.ticketImage h1:hover {
+  position: absolute;
+  display: inline-block;
+  left: 37%;
+  top: 51%;
+  transform: translate(30%, 58%);
+  font-size: 10px;
+  border-radius: 18%;
+  padding: 3px;
+  color: #316a1f;
+  cursor: pointer;
+  transition: 0.25s;
+  background-image: radial-gradient(#316a1f7a 0%, #87bb01 20%);
+}
+h1.youhabe {
+  font-size: 15px;
+  color: #ce4721;
+}
+h1.youwin {
+  font-size: 12px;
+  padding-top: 0px;
+  color: white;
+}
+.buydeLotto img {
+  width: 27%;
+  margin-top: 0px;
+}
+h1.buydeText {
+  color: #ce4721;
+  position: absolute;
+  font-size:10px;
+  left: -2%;
+  top: -60%;
+  transform: translate(5%, 27%);
+  padding: 8px;
+}
+h1.buydeText:hover {
+  color: #316a1f;
+  position: absolute;
+  font-size: 10px;
+  left: -2%;
+  top: -60%;
+  transform: translate(5%, 27%);
+  padding: 8px;
+}
+h1.playh1 {
+  font-size: 40px;
+  color: #ce4721;
+  padding-bottom: 15px;
+  padding-top: 30px;
+}
+p.erty {
+  font-size: 15px;
+  padding: 0px 22px 30px;
+  color: white;
+}
+.playStar p {
+  font-size: 27px;
+  color: white;
+}
+.cloudSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0px;
+  flex-direction: column;
+}
+p.cloudp {
+  position: absolute;
+  top: 0%;
+  padding: 80px;
+  font-size: 14px;
+}
+h1.cloudh1 {
+  position: absolute;
+  top: 25%;
+  left: 30%;
+  font-size: 25px;
+  color: #ce4721;
+}
+h1.cloudh2 {
+  position: absolute;
+  top: 28%;
+  left: 30%;
+  font-size: 22px;
+  color: #377235;
+}
+.history-Section {
+  padding-top: 31px;
+}
+.prizePot {
+   padding-top: 0px; 
+}
+/* Pool */
+img.poolImge {
+  width: 100%;
+}
+.Group11399 {
+  position: absolute;
+  top: 30%;
+  left: 0%;
+  cursor: pointer;
+}
+img.poolGroup11399 {
+  width: 50%;
+}
+h1.match05 {
+  font-size: 16px;
+  line-height: 0px;
+  color: white;
+}
+.matchhwr {
+  position: absolute;
+  top: 74%;
+  text-align: left;
+  left: 45%;
+}
+h1.match05:hover {
+  color: #377235;
+}
+h1.seventy\% {
+  font-size: 20px;
+  color: white;
+}
+.Group125099 {
+  display: flex;
+  position: absolute;
+  top: 66%;
+  flex-wrap: nowrap;
+}
+img.poolImge533 {
+  width: 90%;
+}
+.match0523 {
+  text-align: left;
+  position: absolute;
+  left: 21%;
+  top: 66%;
+  cursor: pointer;
+}
+h1.match04 {
+  font-size: 14px;
+  line-height: 0;
+  color: white;
+}
+h1.ten\% {
+  font-size: 16px;
+  color: white;
+}
+h1.matchde {
+  font-size: 14px;
+  color: white;
+  line-height: 0;
+}
+h1.tenty\% {
+  font-size: 16px;
+  color: white;
+}
+.match751 {
+  position: absolute;
+  text-align: left;
+  top: 67%;
+  left: 66%;
+  cursor: pointer;
+}
+h1.allocations {
+  position: absolute;
+  font-size: 20px;
+  color: white;
+  top: 22%;
+  left: 24%;
+}
+.prizePoll {
+  padding-top: 80px;
+  display: inline-block;
+  position: relative;
+}
+
+/* .prizeFunds */
+img.Group113963 {
+  visibility: hidden;
+}
+h1.PrizeFounds {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  transform: translate(0%, 18%);
+  font-size: 45px;
+  color: #ce4721;
+}
+p.bushPaid {
+  position: absolute;
+  top: 42%;
+  left: 12%;
+  font-size: 15px;
+  padding-right: 5px;
+  color: white;
+}
+p.afterPaid {
+  position: absolute;
+  top: 83%;
+  left: 12%;
+  font-size: 15px;
+  padding-right: 5px;
+  color: white;
+}
+img.Group1109\.png {
+  width: 8%;
+  position: absolute;
+  top: 43%;
+  left: 0%;
+  display: block;
+}
+img.Group11092\.png {
+  width: 8%;
+  position: absolute;
+  top: 83%;
+  left: 0%;
+  display: block;
+}
+h1.ourteams {
+  font-size: 50px;
+  color: #ce4721;
+  padding-bottom: 25px;
+  padding-top: 55px;
+}
+h1.teamName {
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  font-size: 20px;
+  color: #377235;
+}
+.Stills {
+  padding-top: 5px;
+}
+h1.quesh1 {
+  color: #ce4721;
+  font-size: 28px;
+  padding-left: 20px;
+}
+p.quesp {
+  color: white;
+  font-size: 16px;
+  padding-left: 18px;
+}
+img.Group11401 {
+  width: 15%;
+  padding: 6px;
+  cursor: pointer;
+  padding-bottom: 5px;
+  padding-top: 30px;
+}
+img.Group11401:hover {
+  width: 15%;
+  padding: 5px;
+  cursor: pointer;
+  transition: 0.1s;
+  padding-bottom: 5px;
+  padding-top: 30px;
+}
+h1.allright {
+  font-size: 18px;
+  color: white;
+  padding-bottom: 10px;
+}
+.footer {
+  padding-top: 10px;
+}
+/* Model buy price */
+.buypopImage img {
+  width: 100%;
+}
+h1.buyticketh1 {
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  transform: translate(-50%, 10px);
+  font-size: 20px;
+  color: white;
+}
+h1.costh1 {
+  font-size: 18px;
+  color: white;
+  padding-right: 10px;
+}
+h1.costprice {
+  color: white;
+  font-size: 24px;
+  padding-left: 52px;
+}
+.insufficient {
+  display: inline-block;
+  text-align: left;
+  position: absolute;
+  top: 48%;
+  left: 38%;
+  transform: translate(-22%, 54%);
+}
+.insufficient h1 {
+  font-size: 13px;
+  color: #ce4721;
+}
+h1.insufficiendeth1 {
+  color: white;
+  font-size: 15px;
+}
+
+/* buy tickets popup */
+.buyticketpop {
+  display: none;
+  position: absolute;
+  width: 80%;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -36%);
+  transition: 0.25s;
+}
+.closeBotton {
+  width: 22%!important;
+  top: 0%;
+  position: absolute;
+  right: -7%;
+  cursor: pointer;
+}
+h1.insufficienth1 {
+  font-size: 12px;
+  color: #ce4721;
+}
+h1.insufficiendeth1 {
+  color: white;
+  font-size: 10px;
+}
+h1.costh1 {
+  font-size: 15px;
+  color: white;
+  padding-right: 10px;
+}
+h1.buyBotton {
+  display: inline-block;
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translate(-47%, -0%);
+  color: #306a1fe7;
+  font-size: 29px;
+}
+/* .increament-decreament */
+.increament-decreament {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -14%);
+}
+
+.increament-decreament label {
+  position: absolute;
+  top: -130%;
+  left: 40%;
+  font-size: 44px;
+  font-family: "Cooper Black", serif;
+  color: #5ba701;
+}
+
+img.increament {
+  width: 26%;
+  margin-left: 12px;
+  cursor: pointer;
+}
+img.decreament {
+  width: 26%;
+  margin-right: 12px;
+  cursor: pointer;
+}
+/* end */
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+h1.teamName {
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  font-size: 19px;
+  color: #377235;
+}
+.teamName {
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  color: #377235;
+  text-align: center;
+}
+h1.teamName1 {
+  font-size: 12px;
+}
+h1.teamName2 {
+  font-size: 15px;
+  padding: 0px 7px;
+}
+
+h1.teamName3 {
+  font-size: 15px;
+  padding: 0px 0px;
+}
+h1.teamName4 {
+  font-size: 14px;
+  padding: 0px 5px;
+}
+h1.titlemember1 {
+  position: absolute;
+  top: 65%;
+  left: 35%;
+  font-size: 13px;
+  color: #f3f7f3;
+}
+h1.titlemember2 {
+  position: absolute;
+  top: 73%;
+  left: 5%;
+  font-size: 7px;
+  color: #f3f7f3;
+}
+h1.titlemember3 {
+  position: absolute;
+  top: 70%;
+  left: 0%;
+  font-size: 8px;
+  color: #f3f7f3;
+}
+h1.titlemember4 {
+  position: absolute;
+  top: 73%;
+  left: 8%;
+  font-size: 8px;
+  color: #f3f7f3;
+}
+}
+@media only screen and (max-width:414px) and (min-width: 375px)  {
+  h1, p{
+    font-family: "Cooper Black", serif;
+  }
+  .menuClass img {
+    width: 50px;
+  }
+  .timeLeft {
+    padding-top: 0px;
+}
+img.cludImge {
+  width: 65%;
+}
+.ttimer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0px;
+}
+.ttimer h1 {
+  font-size: 25px;
+}
+.dolerTime img {
+  width: 90%;
+  margin-top: -15px;
+}
+h1.dolarClass {
+  display: inline-block;
+  position: absolute;
+  top: 12%;
+  left: 35%;
+  font-size: 38px;
+  color: #ce4721;
+}
+h1.nuberrr {
+  position: absolute;
+  top: 26%;
+  left: 50%;
+  font-size: 45px;
+  transform: translate(-50%, 15%);
+  color: #1b8694;
+}
+/* Buy Tickets */
+.buyTicketButton img {
+  width: 50%;
+  padding-top: 45px;
+}
+.buyTicketButton h1 {
+  display: inline;
+  position: absolute;
+  top: 20%;
+  left: 4%;
+  color: #ce4721;
+  font-size: 21px;
+}
+
+/* History  */
+.winningNumber h1 {
+  font-size: 16px;
+  position: absolute;
+  display: inline;
+  left: 28px;
+  top: 37px;
+  color: #377235;
+  cursor: pointer;
+}
+.winningNumber h1:hover {
+  position: absolute;
+  display: inline;
+  color: #316a1f;
+  cursor: pointer;
+}
+
+h1.dolarhistory {
+  font-size: 35px;
+  color: #ce4721;
+}
+img.Group11244 {
+  width: 40%;
+  margin: 0px 2px;
+}
+h1.round61 {
+  position: absolute;
+  top: -5px;
+  z-index: 99;
+  font-size: 21px;
+  left: 31%;
+  color: #316a1f;
+}
+img.Group8645 {
+  width: 20%;
+  opacity: 0.9;
+  padding: 5px;
+}
+img.Group8645:hover {
+  width: 20%;
+  opacity: 1;
+  padding: 4px;
+  transition: 0.15s;
+}
+img.Group8623 {
+  width: 20%;
+  opacity: 0.9;
+  padding: 5px;
+}
+img.Group8623:hover {
+  width: 20%;
+  opacity: 1;
+  padding: 4px;
+  transition: 0.15s;
+}
+h1.drawn {
+  font-size: 18px;
+  color: #ce4721;
+}
+img.Group11253 {
+  width: 55%;
+  padding-top: 0px;
+}
+.finsh h1 {
+  font-size: 26px;
+  padding-bottom: 15px;
+  padding-top: 25px;
+  color: #316a1f;
+}
+/* History Section tab button */
+.history-Section {
+  padding-top: 45px;
+}
+ul.mb-3.nav.nav-tabs {
+  display: inline-flex;
+  flex-wrap: wrap;
+  background: #0b5ed7;
+  padding: 5px;
+  border-radius: 50px!important;
+  border: 3px solid white;
+}
+.nav-tabs {
+  border-bottom: none!important;
+}
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  justify-content: center;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #0b5ed7!important;
+  border-color: #0a53be;
+  font-size: 15px!important;
+  background-image: linear-gradient( 
+180deg
+, #c0eef163 , #0092b5);
+  box-shadow: 0px 1px 0px 1px #88f6f9!important;
+  padding: 5px 10px;
+  font-family: "Cooper Black", serif;
+  border-radius: 30px!important;
+}
+.nav-link {
+  color: #fff!important;
+  font-size: 15px!important;
+  background-color: #0d6efd85;
+  border-color: #0d6efd;
+  padding: 5px 10px!important;
+  font-family: "Cooper Black", serif;
+  border-radius: 30px!important;
+}
+
+/* Tab end */
+/* Tickets Section */
+img.Group12533 {
+  width: 34%;
+}
+.ticketImage {
+  padding-top: 0px;
+  position: relative;
+  padding-bottom: 0px;
+}
+.ticketImage h1 {
+  position: absolute;
+  display: inline-block;
+  left: 38%;
+  top: 52%;
+  transform: translate(30%, 58%);
+  font-size: 10px;
+  border-radius: 18%;
+  padding: 3px;
+  color: #447942;
+}
+.ticketImage h1:hover {
+  position: absolute;
+  display: inline-block;
+  left: 38%;
+  top: 52%;
+  transform: translate(30%, 58%);
+  font-size: 10px;
+  border-radius: 18%;
+  padding: 3px;
+  color: #316a1f;
+  cursor: pointer;
+  transition: 0.25s;
+  background-image: radial-gradient(#316a1f7a 0%, #87bb01 20%);
+}
+h1.youhabe {
+  font-size: 15px;
+  color: #ce4721;
+}
+h1.youwin {
+  font-size: 12px;
+  padding-top: 0px;
+  color: white;
+}
+.buydeLotto img {
+  width: 27%;
+  margin-top: 0px;
+}
+h1.buydeText {
+  color: #ce4721;
+  position: absolute;
+  font-size: 11px;
+  left: 5%;
+  top: -63%;
+  transform: translate(0%, 27%);
+  padding: 8px;
+}
+h1.buydeText:hover {
+  color: #316a1f;
+  position: absolute;
+  font-size: 12px;
+  left: 0%;
+  top: -60%;
+  transform: translate(5%, 27%);
+  padding: 8px;
+}
+h1.playh1 {
+  font-size: 36px;
+  color: #ce4721;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+p.erty {
+  font-size: 15px;
+  padding: 0px 22px 30px;
+  color: white;
+}
+.playStar p {
+  font-size: 27px;
+  color: white;
+}
+.cloudSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0px;
+  flex-direction: column;
+}
+p.cloudp {
+  position: absolute;
+  top: 0%;
+  padding: 96px;
+}
+h1.cloudh1 {
+  position: absolute;
+  top: 25%;
+  left: 30%;
+  font-size: 25px;
+  color: #ce4721;
+}
+h1.cloudh2 {
+  position: absolute;
+  top: 28%;
+  left: 30%;
+  font-size: 22px;
+  color: #377235;
+}
+
+.prizePot {
+   padding-top: 0px; 
+}
+/* Pool */
+img.poolImge {
+  width: 100%;
+}
+.Group11399 {
+  position: absolute;
+  top: 30%;
+  left: 0%;
+  cursor: pointer;
+}
+img.poolGroup11399 {
+  width: 50%;
+}
+h1.match05 {
+  font-size: 16px;
+  line-height: 0px;
+  color: white;
+}
+.matchhwr {
+  position: absolute;
+  top: 74%;
+  text-align: left;
+  left: 45%;
+}
+h1.match05:hover {
+  color: #377235;
+}
+h1.seventy\% {
+  font-size: 20px;
+  color: white;
+}
+.Group125099 {
+  display: flex;
+  position: absolute;
+  top: 66%;
+  flex-wrap: nowrap;
+}
+img.poolImge533 {
+  width: 90%;
+}
+.match0523 {
+  text-align: left;
+  position: absolute;
+  left: 21%;
+  top: 66%;
+  cursor: pointer;
+}
+h1.match04 {
+  font-size: 14px;
+  line-height: 0;
+  color: white;
+}
+h1.ten\% {
+  font-size: 16px;
+  color: white;
+}
+h1.matchde {
+  font-size: 14px;
+  color: white;
+  line-height: 0;
+}
+h1.tenty\% {
+  font-size: 16px;
+  color: white;
+}
+.match751 {
+  position: absolute;
+  text-align: left;
+  top: 67%;
+  left: 66%;
+  cursor: pointer;
+}
+h1.allocations {
+  position: absolute;
+  font-size: 20px;
+  color: white;
+  top: 22%;
+  left: 24%;
+}
+.prizePoll {
+  padding-top: 80px;
+  display: inline-block;
+  position: relative;
+}
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+h1.teamName {
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  font-size: 19px;
+  color: #377235;
+}
+.teamName {
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  color: #377235;
+  text-align: center;
+}
+h1.teamName1 {
+  font-size: 13px;
+}
+h1.teamName2 {
+  font-size: 15px;
+  padding: 0px 12px;
+}
+h1.teamName3 {
+  font-size: 15px;
+  padding: 0px 4px;
+}
+h1.teamName4 {
+  font-size: 15px;
+  padding: 0px 8px;
+}
+h1.titlemember1 {
+  position: absolute;
+  top: 73%;
+  left: 33%;
+  font-size: 14px;
+  color: #f3f7f3;
+}
+h1.titlemember2 {
+  position: absolute;
+  top: 73%;
+  left: 3%;
+  font-size: 8px;
+  color: #f3f7f3;
+}
+h1.titlemember3 {
+  position: absolute;
+  top: 73%;
+  left: 5%;
+  font-size: 8px;
+  color: #f3f7f3;
+}
+
+h1.titlemember4 {
+  position: absolute;
+  top: 73%;
+  left: 4%;
+  font-size: 10px;
+  color: #f3f7f3;
+}
+/* .prizeFunds */
+img.Group113963 {
+  visibility: hidden;
+}
+h1.PrizeFounds {
+  position: absolute;
+  top: 13%;
+  left: 12%;
+  transform: translate(0%, 18%);
+  font-size: 45px;
+  color: #ce4721;
+}
+img.Group1109\.png {
+  width: 8%;
+  position: absolute;
+  top: 52%;
+  display: block;
+  left: 0%;
+}
+img.Group11092\.png {
+  width: 8%;
+  position: absolute;
+  top: 83%;
+  display: block;
+  left: 0%;
+}
+
+p.bushPaid {
+  position: absolute;
+  top: 50%;
+  left: 13%;
+  font-size: 15px;
+  padding-right: 5px;
+  color: white;
+}
+p.afterPaid {
+  position: absolute;
+  top: 82%;
+  left: 13%;
+  font-size: 15px;
+  padding-right: 8px;
+  color: white;
+}
+h1.ourteams {
+  font-size: 50px;
+  color: #ce4721;
+  padding-bottom: 35px;
+  padding-top: 55px;
+}
+h1.teamName {
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  font-size: 20px;
+  color: #377235;
+}
+.Stills {
+  padding-top: 5px;
+}
+h1.quesh1 {
+  color: #ce4721;
+  font-size: 28px;
+  padding-left: 20px;
+}
+p.quesp {
+  color: white;
+  font-size: 16px;
+  padding-left: 18px;
+}
+img.Group11401 {
+  width: 15%;
+  padding: 6px;
+  cursor: pointer;
+  padding-bottom: 5px;
+  padding-top: 30px;
+}
+img.Group11401:hover {
+  width: 15%;
+  padding: 5px;
+  cursor: pointer;
+  transition: 0.1s;
+  padding-bottom: 5px;
+  padding-top: 30px;
+}
+h1.allright {
+  font-size: 18px;
+  color: white;
+  padding-bottom: 10px;
+}
+.footer {
+  padding-top: 10px;
+}
+/* buy tickets popup */
+.Group21396 {
+  width: 100%;
+}
+h1.buyticketh1 {
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translate(-50%, 7px);
+  font-size: 26px;
+  color: white;
+}
+.insufficient {
+  display: inline-block;
+  text-align: left;
+  position: absolute;
+  top: 55%;
+  left: 43%;
+  transform: translate(-23%, -27%);
+}
+.buyticketpop {
+  display: none;
+  position: absolute;
+  width: 86%;
+  top: 28%;
+  left: 50%;
+  transform: translate(-50%, -36%);
+  transition: 0.25s;
+}
+.closeBotton {
+  width: 22%!important;
+  top: 0%;
+  position: absolute;
+  right: -7%;
+  cursor: pointer;
+}
+h1.insufficienth1 {
+  font-size: 13px;
+  color: #ce4721;
+}
+h1.insufficiendeth1 {
+  color: white;
+  font-size: 11px;
+}
+h1.costh1 {
+  font-size: 18px;
+  color: white;
+  padding-right: 10px;
+}
+h1.buyBotton {
+  display: inline-block;
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translate(-47%, -0%);
+  color: #306a1fe7;
+  font-size: 31px;
+}
+/* .increament-decreament */
+.increament-decreament {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -14%);
+}
+
+.increament-decreament label {
+  position: absolute;
+  top: -102%;
+  left: 40%;
+  font-size: 45px;
+  font-family: "Cooper Black", serif;
+  color: #5ba701;
+}
+
+img.increament {
+  width: 28%;
+  margin-left: 15px;
+  cursor: pointer;
+}
+img.decreament {
+  width: 28%;
+  margin-right: 15px;
+  cursor: pointer;
+}
+/* end */
+}
+@media only screen and (max-width: 480px) and (min-width: 414px)  {
+  h1, p{
+    font-family: "Cooper Black", serif;
+  }
+  .menuClass img {
+    width: 50px;
+  }
+  img.cludImge {
+    width: 65%;
+}
+  h1.dolarClass {
+    display: inline-block;
+    position: absolute;
+    top: 17%;
+    left: 37%;
+    font-size: 38px;
+    color: #ce4721;
+}
+.buyTicketButton h1 {
+  display: inline;
+  position: absolute;
+  top: 19%;
+  left: 7%;
+  color: #ce4721;
+  font-size: 21px;
+}
+.buyTicketButton h1:hover {
+  transition: .3s ease-in-out;
+  color: #316a1f;
+  background-image: linear-gradient(
+178deg
+,rgba(255,231,73,.16862745098039217),rgba(255,146,12,.3215686274509804));
+}
+h1.nuberrr {
+  position: absolute;
+  top: 24%;
+  left: 50%;
+  font-size: 45px;
+  transform: translate(-50%, 15%);
+  color: #1b8694;
+}
+/* buy tickets popup */
+.buyticketpop {
+  display: none;
+  position: absolute;
+  width: 80%;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -36%);
+  transition: 0.25s;
+}
+.closeBotton {
+  width: 22%!important;
+  top: 0%;
+  position: absolute;
+  right: -7%;
+  cursor: pointer;
+}
+h1.insufficienth1 {
+  font-size: 13px;
+  color: #ce4721;
+}
+h1.insufficiendeth1 {
+  color: white;
+  font-size: 13px;
+}
+h1.costh1 {
+  font-size: 16px;
+  color: white;
+  padding-right: 10px;
+}
+h1.buyBotton {
+  display: inline-block;
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translate(-47%, -0%);
+  color: #306a1fe7;
+  font-size: 31px;
+}/* .increament-decreament */
+.increament-decreament {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -14%);
+}
+
+.increament-decreament label {
+  position: absolute;
+  top: -108%;
+  left: 40%;
+  font-size: 45px;
+  font-family: "Cooper Black", serif;
+  color: #5ba701;
+}
+
+img.increament {
+  width: 26%;
+  margin-left: 16px;
+  cursor: pointer;
+}
+img.decreament {
+  width: 26%;
+  margin-right: 16px;
+  cursor: pointer;
+}
+/* end */
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+h1.teamName {
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  font-size: 19px;
+  color: #377235;
+}
+.teamName {
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  color: #377235;
+  text-align: center;
+}
+h1.teamName1 {
+  font-size: 14px;
+}
+h1.teamName2 {
+  font-size: 16px;
+  padding: 0px 10px;
+}
+h1.teamName3 {
+  font-size: 15px;
+  padding: 0px 5px;
+}
+h1.teamName4 {
+  font-size: 15px;
+  padding: 0px 7px;
+}
+h1.titlemember1 {
+  position: absolute;
+  top: 73%;
+  left: 33%;
+  font-size: 14px;
+  color: #f3f7f3;
+}
+h1.titlemember2 {
+  position: absolute;
+  top: 73%;
+  left: 3%;
+  font-size: 8px;
+  color: #f3f7f3;
+}
+h1.titlemember3 {
+  position: absolute;
+  top: 73%;
+  left: 0%;
+  font-size: 9px;
+  color: #f3f7f3;
+}
+
+h1.titlemember4 {
+  position: absolute;
+  top: 73%;
+  left: 5%;
+  font-size: 10px;
+  color: #f3f7f3;
+}
+/* History Section tab button */
+.history-Section {
+  padding-top: 56px;
+}
+ul.mb-3.nav.nav-tabs {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  background: #0b5ed7;
+  padding: 5px;
+  border-radius: 50px!important;
+  border: 3px solid white;
+}
+.nav-tabs {
+  border-bottom: none!important;
+}
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  justify-content: center;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #0b5ed7!important;
+  font-size: 15px!important;
+  background-image: linear-gradient( 
+180deg
+, #c0eef163 , #0092b5);
+  box-shadow: 0px 1px 0px 1px #88f6f9!important;
+  padding: 5px 10px!important;
+  font-family: "Cooper Black", serif;
+  border-radius: 30px!important;
+}
+.nav-link {
+  color: #fff!important;
+  font-size: 15px!important;
+  background-color: #0d6efd85;
+  border-color: #0d6efd;
+  padding: 5px 10px!important;
+  font-family: "Cooper Black", serif;
+  border-radius: 30px!important;
+}
+}
+@media only screen and (max-width: 600px) and (min-width: 480px)  {
+
+
+  .menuClass img {
+    width: 50px;
+  }
+  h1, p{
+    font-family: "Cooper Black", serif;
+  }
+  h1.dolarClass {
+    display: inline-block;
+    position: absolute;
+    top: 21%;
+    left: 37%;
+    font-size: 45px;
+    color: #ce4721;
+}
+.buyTicketButton h1 {
+  display: inline;
+  position: absolute;
+  top: 20%;
+  left: 6%;
+  color: #ce4721;
+  font-size: 30px;
+}
+h1.nuberrr {
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    font-size: 45px;
+    transform: translate(-50%, 15%);
+    color: #1b8694;
+}
+h1.nuberrr {
+  position: absolute;
+  top: 26%;
+  left: 50%;
+  font-size: 45px;
+  transform: translate(-50%, 15%);
+  color: #1b8694;
+}
+h1.round61 {
+  position: absolute;
+  top: -10px;
+  z-index: 99;
+  font-size: 28px;
+  left: 31%;
+  color: #316a1f;
+}
+.winningNumber h1 {
+  font-size: 22px;
+  position: absolute;
+  display: inline;
+  left: 22px;
+  top: 45px;
+  color: #377235;
+  cursor: pointer;
+}
+.ticketImage h1 {
+  position: absolute;
+  display: inline-block;
+  left: 37%;
+  top: 70%;
+  transform: translate(30%, 58%);
+  font-size: 16px;
+  border-radius: 18%;
+  padding: 3px;
+  color: #447942;
+}
+.ticketImage h1:hover {
+  position: absolute;
+  display: inline-block;
+  left: 37%;
+  top: 70%;
+  transform: translate(30%, 58%);
+  font-size: 16px;
+  border-radius: 18%;
+  padding: 3px;
+  color: #316a1f;
+  cursor: pointer;
+  transition: 0.25s;
+  background-image: radial-gradient(#316a1f7a 0%, #87bb01 20%);
+}
+h1.buydeText {
+  color: #ce4721;
+  position: absolute;
+  font-size: 16px;
+  left: 5%;
+  top: -67%;
+  transform: translate(4%, 24%);
+  padding: 8px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+h1.buydeText:hover{
+    color: #316a1f;
+    position: absolute;
+    font-size: 16px;
+    left: 5%;
+    top: -67%;
+    transform: translate(4%, 24%);
+    padding: 8px;
+    background-image: linear-gradient( 
+  178deg
+  , #ffe74926 , #ff920c47);
+    border-radius: 30px;
+    cursor: pointer;
+}
+img.Group11401 {
+  width: 12%;
+  padding: 12px;
+  cursor: pointer;
+}
+img.Group11401 {
+  width: 12%;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+p.erty {
+  font-size: 21px;
+  padding: 0px 30px 30px;
+  color: white;
+}
+.cloudSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 50px;
+  flex-direction: column;
+}
+.cloudClass {
+  display: inline;
+  position: relative;
+  margin-bottom: 80px;
+}
+
+p.cloudp {
+  position: absolute;
+  top: 13%;
+  padding: 90px;
+  font-size: 18px;
+}
+img.poolImge {
+  width: 95%;
+}
+.Group125099 {
+  display: flex;
+  flex-wrap: nowrap;
+  position: absolute;
+  top: 69%;
+}
+.match751 {
+  position: absolute;
+  text-align: left;
+  top: 67%;
+  left: 65%;
+  cursor: pointer;
+}
+.match0523 {
+  text-align: left;
+  position: absolute;
+  left: 25%;
+  top: 66%;
+  cursor: pointer;
+}
+img.poolImge533 {
+  width: 82%;
+}
+.ticketImage {
+  padding-top: 75px;
+  position: relative;
+  padding-bottom: 0px;
+}
+img.Group12533 {
+  width: 40%;
+}
+h1.youhabe {
+  font-size: 25px;
+  color: #ce4721;
+}
+h1.youwin {
+  font-size: 28px;
+  padding-top: 10px;
+  color: white;
+}
+.buydeLotto img {
+  width: 28%;
+  margin-top: 5px;
+}
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.dolerTime img {
+  width: 85%;
+  margin-top: -12px;
+}
+.buyTicketButton img {
+  width: 40%;
+  padding-top: 37px;
+}
+.buyTicketButton h1 {
+  display: inline;
+  position: absolute;
+  top: -13%;
+  left: 6%;
+  color: #ce4721;
+  font-size: 25px;
+}
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+h1.teamName {
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  font-size: 19px;
+  color: #377235;
+}
+.teamName {
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  color: #377235;
+  text-align: center;
+}
+h1.teamName1 {
+  font-size: 18px;
+}
+h1.teamName2 {
+  font-size: 18px;
+  padding: 0px 25px;
+}
+h1.teamName3 {
+  font-size: 18px;
+  padding: 0px 18px;
+}
+h1.teamName4 {
+  font-size: 18px;
+  padding: 0px 18px;
+}
+h1.titlemember1 {
+  position: absolute;
+  top: 73%;
+  left: 40%;
+  font-size: 15px;
+  color: #f3f7f3;
+}
+h1.titlemember2 {
+  position: absolute;
+  top: 73%;
+  left: 1%;
+  font-size: 12px;
+  color: #f3f7f3;
+}
+h1.titlemember3 {
+  position: absolute;
+  top: 73%;
+  left: 3%;
+  font-size: 12px;
+  color: #f3f7f3;
+}
+
+h1.titlemember4 {
+  position: absolute;
+  top: 73%;
+  left: 11%;
+  font-size: 13px;
+  color: #f3f7f3;
+}
+h1.cloudh1 {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  font-size: 31px;
+  color: #ce4721;
+}
+h1.cloudh2 {
+  position: absolute;
+  top: 28%;
+  left: 30%;
+  font-size: 28px;
+  color: #377235;
+}
+.Group11399 {
+  position: absolute;
+  top: 30%;
+  left: 9%;
+  cursor: pointer;
+}
+h1.allocations {
+  position: absolute;
+  font-size: 26px;
+  color: white;
+  top: 25%;
+  left: 23%;
+}
+h1.PrizeFounds {
+  position: absolute;
+  top: 20%;
+  left: 7%;
+  transform: translate(16%, 18%);
+  font-size: 50px;
+  color: #ce4721;
+}
+img.Group113963 {
+  width: 100%;
+  visibility: hidden;
+}
+h1.ourteams {
+  font-size: 55px;
+  color: #ce4721;
+  padding-bottom: 30px;
+  padding-top: 40px;
+}
+img.Group1109\.png {
+  width: 8%;
+  position: absolute;
+  top: 52%;
+  display: block;
+  left: 0%;
+}
+img.Group11092\.png {
+  width: 8%;
+  position: absolute;
+  top: 83%;
+  display: block;
+  left: 0%;
+}
+
+p.bushPaid {
+  position: absolute;
+  top: 50%;
+  left: 13%;
+  font-size: 18px;
+  padding-right: 5px;
+  color: white;
+}
+p.afterPaid {
+  position: absolute;
+  top: 82%;
+  left: 13%;
+  font-size: 18px;
+  padding-right: 8px;
+  color: white;
+}
+h1.teamName {
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  font-size: 25px;
+  color: #377235;
+}
+/* buy tickets popup */
+.Group21396 {
+  width: 50%;
+}
+.buyticketpop {
+  display: none;
+  position: absolute;
+  width: 100%;
+  top: 29%;
+  left: 50%;
+  transform: translate(-50%, -36%);
+  transition: 0.25s;
+}
+.closeBotton {
+  width: 12%!important;
+  top: 0%;
+  position: absolute;
+  right: 19%;
+  cursor: pointer;
+}
+h1.buyticketh1 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, 7px);
+  font-size: 32px;
+  color: white;
+}
+h1.insufficienth1 {
+  font-size: 16px;
+  color: #ce4721;
+}
+h1.insufficiendeth1 {
+  color: white;
+  font-size: 16px;
+}
+.costde {
+  display: flex;
+  align-items: center;
+  padding: 80px;
+  position: absolute;
+  top: 76%;
+  left: 50%;
+  transform: translate(-50%, -48%);
+}
+h1.costh1 {
+  font-size:20px;
+  color: white;
+  padding-right: 10px;
+}
+h1.buyBotton {
+  display: inline-block;
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translate(-47%, -0%);
+  color: #306a1fe7;
+  font-size: 31px;
+}
+/* .increament-decreament */
+.increament-decreament {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -14%);
+}
+
+.increament-decreament label {
+  position: absolute;
+  top: -102%;
+  left: 40%;
+  font-size: 45px;
+  font-family: "Cooper Black", serif;
+  color: #5ba701;
+}
+
+img.increament {
+  width: 18%;
+  margin-left: 12px;
+  cursor: pointer;
+}
+img.decreament {
+  width: 18%;
+  margin-right: 12px;
+  cursor: pointer;
+}
+/* end */
+h1.costh1 {
+  font-size: 20px;
+  color: white;
+  padding-right: 0px;
+}
+h1.costprice {
+  color: white;
+  font-size: 28px;
+  padding-left: 30px;
+}
+h1.buyBotton {
+  display: inline-block;
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translate(-47%, -0%);
+  color: #306a1fe7;
+  font-size: 31px;
+}
+img.Group11401 {
+  width: 15%;
+  padding: 12px;
+  cursor: pointer;
+}
+.Stills {
+  padding-top: 15px;
+  padding-left: 15px;
+  text-align: center;
+}
+p.quesp {
+  color: white;
+  font-size: 26px;
+}
+/* History Section tab button */
+.history-Section {
+  padding-top: 56px;
+}
+ul.mb-3.nav.nav-tabs {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  background: #0b5ed7;
+  padding: 5px;
+  border-radius: 50px!important;
+  border: 3px solid white;
+}
+.nav-tabs {
+  border-bottom: none!important;
+}
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  justify-content: center;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #0b5ed7!important;
+  font-size: 15px!important;
+  background-image: linear-gradient( 
+180deg
+, #c0eef163 , #0092b5);
+  box-shadow: 0px 1px 0px 1px #88f6f9!important;
+  padding: 5px 10px!important;
+  font-family: "Cooper Black", serif;
+  border-radius: 30px!important;
+}
+.nav-link {
+  color: #fff!important;
+  font-size: 15px!important;
+  background-color: #0d6efd85;
+  border-color: #0d6efd;
+  padding: 5px 10px!important;
+  font-family: "Cooper Black", serif;
+  border-radius: 30px!important;
+}
+
+img.Group11244 {
+  width: 35%;
+  margin: 0px 25px;
+}
+img.Group8623 {
+  width: 15%;
+  opacity: 0.9;
+  padding: 5px;
+}
+img.Group8623:hover {
+  width: 15%;
+  opacity: 1;
+  transition: 0.3s;
+  padding: 0px;
+  cursor: pointer;
+}
+img.Group8645 {
+  width: 15%;
+  opacity: 0.9;
+  padding: 5px;
+}
+img.Group8645:hover {
+  width: 15%;
+  opacity: 1;
+  padding: 0px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+img.Group11253 {
+  width: 50%;
+  padding-top: 10px;
+}
+/* .increament-decreament */
+.increament-decreament {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -14%);
+}
+
+.increament-decreament label {
+  position: absolute;
+  top: -102%;
+  left: 44%;
+  font-size: 45px;
+  font-family: "Cooper Black", serif;
+  color: #5ba701;
+}
+
+img.increament {
+  width: 18%;
+  margin-left: 12px;
+  cursor: pointer;
+}
+img.decreament {
+  width: 18%;
+  margin-right: 12px;
+  cursor: pointer;
+}
+/* end */
+}
+
+
+
+
+@media only screen and (max-width: 992px) and (min-width: 768px)  {
+  h1, p{
+    font-family: "Cooper Black", serif;
+  }
+  .menuClass img {
+    width: 80px;
+  }
+  .Group11399 {
+    position: absolute;
+    top: 31%;
+    left: 24%;
+    cursor: pointer;
+}
+.Group125099 {
+  display: flex;
+  flex-wrap: nowrap;
+  position: absolute;
+  top: 69%;
+}
+h1.nuberrr {
+  position: absolute;
+  top: 26%;
+  left: 50%;
+  font-size: 45px;
+  transform: translate(-50%, 15%);
+  color: #1b8694;
+}
+h1.allocations {
+  position: absolute;
+  font-size: 22px;
+  color: white;
+  top: 25%;
+  left: 36%;
+}
+  h1.dolarClass {
+    display: inline-block;
+    position: absolute;
+    top: -13%;
+    left: 39%;
+    font-size: 52px;
+    color: #ce4721;
+}
+.buyTicketButton img {
+  width: 28%;
+  padding-top: 45px;
+}
+.buyTicketButton h1 {
+  display: inline;
+  position: absolute;
+  top: 2%;
+  left: 3%;
+  color: #ce4721;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 17px;
+  border-radius: 50px;
+}
+h1.dolarhistory {
+  font-size: 55px;
+  color: #ce4721;
+}
+img.Group11244 {
+  width: 25%;
+  margin: 0px 40px;
+}
+h1.drawn {
+  font-size: 25px;
+  color: #ce4721;
+}
+img.Group11253 {
+  width: 20%;
+  padding-top: 0px;
+}
+.winningNumber h1 {
+  font-size: 11px;
+  position: absolute;
+  display: inline;
+  left: 20px;
+  top: 29px;
+  color: #377235;
+  cursor: pointer;
+}
+h1.round61 {
+  position: absolute;
+  top: -9px;
+  z-index: 99;
+  font-size: 26px;
+  left: 32%;
+  color: #316a1f;
+}
+img.Group11401 {
+  width: 10%;
+  padding: 10px;
+  cursor: pointer;
+  padding-bottom: 35px;
+}
+img.Group11401:hover {
+  width: 10%;
+  padding: 12px;
+  cursor: pointer;
+  padding-bottom: 35px;
+  transition: 0.1s;
+}
+.ticketImage {
+  padding-top: 38px;
+  position: relative;
+  padding-bottom: 0px;
+}
+.ticketImage h1 {
+  position: absolute;
+  display: inline-block;
+  left: 37%;
+  top: 60%;
+  transform: translate(34%, 45%);
+  font-size: 19px;
+  border-radius: 18%;
+  padding: 6px;
+  color: #447942;
+}
+.ticketImage h1:hover {
+  position: absolute;
+  display: inline-block;
+  left: 37%;
+  top: 60%;
+  transform: translate(34%, 45%);
+  font-size: 19px;
+  border-radius: 18%;
+  padding: 6px;
+  color: #316a1f;
+  cursor: pointer;
+  transition: 0.25s;
+  background-image: radial-gradient(#316a1f7a 0%, #87bb01 20%);
+}
+h1.youhabe {
+  font-size: 35px;
+  color: #ce4721;
+}
+h1.youwin {
+  font-size: 40px;
+  padding-top: 10px;
+  color: white;
+}
+.buydeLotto img {
+  width: 24%;
+  margin-top: 5px;
+}
+h1.buydeText {
+  color: #ce4721;
+  position: absolute;
+  font-size: 19px;
+  left: 2%;
+  top: 10%;
+  transform: translate(3%, -33%);
+  padding: 15px;
+}
+h1.buydeText:hover {
+  color: #316a1f;
+  position: absolute;
+  font-size: 19px;
+  left: 2%;
+  top: 10%;
+  transform: translate(3%, -33%);
+  padding: 15px;
+  background-image: linear-gradient( 
+178deg
+, #ffe74926 , #ff920c47);
+  border-radius: 30px;
+  cursor: pointer;
+}
+.cloudSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 00px;
+}
+h1.cloudh1 {
+  position: absolute;
+  top: 25%;
+  left: 28%;
+  font-size: 18px;
+  color: #ce4721;
+}
+h1.cloudh2 {
+  position: absolute;
+  top: 27%;
+  left: 28%;
+  font-size: 18px;
+  color: #377235;
+}
+p.cloudp {
+  position: absolute;
+  top: 25%;
+  padding: 39px;
+  font-size: 14px;
+}
+img.cludImge {
+  width: 100%;
+}
+img.Group113963 {
+  width: 100%;
+  height: 370px;
+}
+p.bushPaid {
+  position: absolute;
+  top: 41%;
+  left: 15%;
+  font-size: 20px;
+  padding-right: 30px;
+  color: white;
+}
+p.afterPaid {
+  position: absolute;
+  top: 60%;
+  left: 15%;
+  font-size: 20px;
+  padding-right: 30px;
+  color: white;
+}
+h1.teamName {
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  font-size: 19px;
+  color: #377235;
+}
+h1.playh1 {
+  font-size: 45px;
+  color: #ce4721;
+  padding-bottom: 12px;
+  padding-top: 0px;
+}
+p.erty {
+  font-size: 20px;
+  padding: 0px 50px 0px;
+  color: white;
+}
+h1.PrizeFounds {
+  position: absolute;
+  top: 20%;
+  left: 23%;
+  transform: translate(16%, -18%);
+  font-size: 45px;
+  color: #ce4721;
+}
+h1.ourteams {
+  font-size: 45px;
+  color: #ce4721;
+  padding-bottom: 35px;
+}
+
+h1.quesh1 {
+  color: #ce4721;
+  font-size: 35px;
+}
+.Stills {
+  padding-top: 115px;
+}
+/* buy tickets popup */
+.Group21396 {
+  width: 50%;
+}
+.buyticketpop {
+  display: none;
+  position: absolute;
+  width: 100%;
+  top: 29%;
+  left: 50%;
+  transform: translate(-50%, -36%);
+  transition: 0.25s;
+}
+.closeBotton {
+  width: 12%!important;
+  top: 0%;
+  position: absolute;
+  right: 19%;
+  cursor: pointer;
+}
+h1.buyticketh1 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, 7px);
+  font-size: 32px;
+  color: white;
+}
+h1.insufficienth1 {
+  font-size: 18px;
+  color: #ce4721;
+}
+h1.insufficiendeth1 {
+  color: white;
+  font-size: 18px;
+}
+h1.costh1 {
+  font-size:20px;
+  color: white;
+  padding-right: 10px;
+}
+h1.buyBotton {
+  display: inline-block;
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translate(-47%, -0%);
+  color: #306a1fe7;
+  font-size: 31px;
+}
+/* .increament-decreament */
+.increament-decreament {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -14%);
+}
+
+.increament-decreament label {
+  position: absolute;
+  top: -102%;
+  left: 40%;
+  font-size: 45px;
+  font-family: "Cooper Black", serif;
+  color: #5ba701;
+}
+
+img.increament {
+  width: 18%;
+  margin-left: 12px;
+  cursor: pointer;
+}
+img.decreament {
+  width: 18%;
+  margin-right: 12px;
+  cursor: pointer;
+}
+/* end */
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+h1.teamName {
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  font-size: 19px;
+  color: #377235;
+}
+.teamName {
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  color: #377235;
+  text-align: center;
+}
+h1.teamName1 {
+  font-size: 12px;
+}
+h1.teamName2 {
+  font-size: 13px;
+  padding: 0px 8px;
+}
+h1.teamName3 {
+  font-size: 13px;
+  padding: 0px 8px;
+}
+h1.teamName4 {
+  font-size: 13px;
+  padding: 0px 5px;
+}
+h1.titlemember1 {
+  position: absolute;
+  top: 72%;
+  left: 36%;
+  font-size: 12px;
+  color: #f3f7f3;
+}
+h1.titlemember2 {
+  position: absolute;
+  top: 73%;
+  left: 10%;
+  font-size: 6px;
+  color: #f3f7f3;
+}
+h1.titlemember3 {
+  position: absolute;
+  top: 73%;
+  left: 0%;
+  font-size: 8px;
+  color: #f3f7f3;
+}
+h1.titlemember4 {
+  position: absolute;
+  top: 73%;
+  left: 9%;
+  font-size: 8px;
+  color: #f3f7f3;
+}
+}
+@media only screen and (max-width: 1024px) and (min-width: 992px)  {
+  h1, p{
+    font-family: "Cooper Black", serif;
+  }
+  .menuClass img {
+    width: 80px;
+  }
+  h1.dolarClass {
+    display: inline-block;
+    position: absolute;
+    top: 3%;
+    left: 40%;
+    font-size: 61px;
+    color: #ce4721;
+}
+.buyTicketButton h1 {
+  display: inline;
+  position: absolute;
+  top: -20%;
+  left: 9%;
+  color: #ce4721;
+  font-size: 29px;
+  cursor: pointer;
+  padding: 17px;
+  border-radius: 50px;
+}
+h1.nuberrr {
+  position: absolute;
+  top: 26%;
+  left: 50%;
+  font-size: 45px;
+  transform: translate(-50%, 15%);
+  color: #1b8694;
+}
+.ticketImage h1 {
+  position: absolute;
+  display: inline-block;
+  left: 39%;
+  top: 62%;
+  transform: translate(34%, 45%);
+  font-size: 22px;
+  border-radius: 18%;
+  padding: 6px;
+  color: #447942;
+}
+.ticketImage h1:hover {
+  position: absolute;
+  display: inline-block;
+  left: 39%;
+  top: 62%;
+  transform: translate(34%, 45%);
+  font-size: 22px;
+  border-radius: 18%;
+  padding: 6px;
+  color: #316a1f;
+  cursor: pointer;
+  transition: 0.25s;
+  background-image: radial-gradient(#316a1f7a 0%, #87bb01 20%);
+}
+h1.buydeText {
+  color: #ce4721;
+  position: absolute;
+  font-size: 25px;
+  left: 2%;
+  top: 10%;
+  transform: translate(3%, -33%);
+  padding: 15px;
+}
+h1.buydeText:hover {
+  color: #316a1f;
+  position: absolute;
+  font-size: 25px;
+  left: 2%;
+  top: 10%;
+  transform: translate(3%, -33%);
+  padding: 15px;
+  background-image: linear-gradient( 
+178deg
+, #ffe74926 , #ff920c47);
+  border-radius: 30px;
+  cursor: pointer;
+}
+p.cloudp {
+  position: absolute;
+  top: 34%;
+  padding: 37px;
+  font-size: 20px;
+}
+h1.cloudh1 {
+  position: absolute;
+  top: 25%;
+  left: 26%;
+  font-size: 28px;
+  color: #ce4721;
+}
+h1.cloudh2 {
+  position: absolute;
+  top: 27%;
+  left: 23%;
+  font-size: 26px;
+  color: #377235;
+}
+h1.PrizeFounds {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-46%, -50%);
+  font-size: 45px;
+  color: #ce4721;
+}
+p.bushPaid {
+  position: absolute;
+  top: 41%;
+  left: 15%;
+  font-size: 25px;
+  padding-right: 30px;
+  color: white;
+}
+p.afterPaid {
+  position: absolute;
+  top: 60%;
+  left: 15%;
+  font-size: 24px;
+  padding-right: 30px;
+  color: white;
+}
+h1.teamName {
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  font-size: 23px;
+  color: #377235;
+}
+.winningNumber h1 {
+  font-size: 15px;
+  position: absolute;
+  display: inline;
+  left: 21px;
+  top: 34px;
+  color: #377235;
+  cursor: pointer;
+}
+/* buy tickets popup */
+.Group21396 {
+  width: 60%;
+}
+.buyticketpop {
+  display: none;
+  position: absolute;
+  width: 80%;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -36%);
+  transition: 0.25s;
+}
+.closeBotton {
+  width: 22%!important;
+  top: 0%;
+  position: absolute;
+  right: -7%;
+  cursor: pointer;
+}
+h1.insufficienth1 {
+  font-size: 12px;
+  color: #ce4721;
+}
+h1.insufficiendeth1 {
+  color: white;
+  font-size: 12px;
+}
+h1.costh1 {
+  font-size: 15px;
+  color: white;
+  padding-right: 10px;
+}
+h1.buyBotton {
+  display: inline-block;
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translate(-47%, -0%);
+  color: #306a1fe7;
+  font-size: 31px;
+}
+/* .increament-decreament */
+.increament-decreament {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -14%);
+}
+
+.increament-decreament label {
+  position: absolute;
+  top: -102%;
+  left: 40%;
+  font-size: 45px;
+  font-family: "Cooper Black", serif;
+  color: #5ba701;
+}
+
+img.increament {
+  width: 18%;
+  margin-left: 12px;
+  cursor: pointer;
+}
+img.decreament {
+  width: 18%;
+  margin-right: 12px;
+  cursor: pointer;
+}
+/* end */
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+h1.teamName {
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  font-size: 19px;
+  color: #377235;
+}
+.teamName {
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  color: #377235;
+  text-align: center;
+}
+h1.teamName1 {
+  font-size: 16px;
+}
+h1.teamName2 {
+  font-size: 17px;
+  padding: 0px 18px;
+}
+h1.teamName3 {
+  font-size: 16px;
+  padding: 0px 10px;
+}
+h1.teamName4 {
+  font-size: 17px;
+  padding: 0px 9px;
+}
+h1.titlemember1 {
+  position: absolute;
+  top: 72%;
+  left: 36%;
+  font-size: 14px;
+  color: #f3f7f3;
+}
+h1.titlemember2 {
+  position: absolute;
+  top: 73%;
+  left: 8%;
+  font-size: 9px;
+  color: #f3f7f3;
+}
+h1.titlemember3 {
+  position: absolute;
+  top: 73%;
+  left: 2%;
+  font-size: 10px;
+  color: #f3f7f3;
+}
+h1.titlemember4 {
+  position: absolute;
+  top: 73%;
+  left: 8%;
+  font-size: 11px;
+  color: #f3f7f3;
+}
+}
+@media only screen and (max-width: 1140px) and (min-width:1024px)  {
+  h1, p{
+    font-family: "Cooper Black", serif;
+  }
+  .menuClass img {
+    width: 100px;
+  }
+  h1.dolarClass {
+    display: inline-block;
+    position: absolute;
+    top: 8%;
+    left: 40%;
+    font-size: 60px;
+    color: #ce4721;
+}
+.buyTicketButton img {
+  width: 26%;
+  padding-top: 59px;
+}
+.buyTicketButton h1 {
+  display: inline;
+  position: absolute;
+  top: 20%;
+  left: 6%;
+  color: #ce4721;
+  font-size: 30px;
+}
+h1.round61 {
+  position: absolute;
+  top: -10px;
+  z-index: 99;
+  font-size: 30px;
+  left: 32%;
+  color: #316a1f;
+}
+img.Group11253 {
+  width: 30%;
+  padding-top: 18px;
+}
+.winningNumber h1 {
+  font-size: 25px;
+  position: absolute;
+  display: inline;
+  left: 20px;
+  top: 51px;
+  color: #377235;
+  cursor: pointer;
+}
+img.Group12533 {
+  width: 40%;
+}
+.ticketImage h1 {
+  position: absolute;
+  display: inline-block;
+  left: 36%;
+  top: 63%;
+  transform: translate(38%, 85%);
+  font-size: 27px;
+  border-radius: 18%;
+  padding: 10px;
+  color: #447942;
+}
+
+.ticketImage h1:hover {
+  position: absolute;
+  display: inline-block;
+  left: 36%;
+  top: 63%;
+  transform: translate(38%, 85%);
+  font-size: 27px;
+  border-radius: 18%;
+  padding: 10px;
+  color: #316a1f;
+  cursor: pointer;
+  transition: 0.25s;
+  background-image: radial-gradient(#316a1f7a 0%, #87bb01 20%);
+}
+h1.buydeText {
+  color: #ce4721;
+  position: absolute;
+  font-size: 20px;
+  left: 5%;
+  top: -89%;
+  transform: translate(4%, 20%);
+  padding: 14px;
+}
+h1.buydeText:hover {
+  color: #316a1f;
+  position: absolute;
+  font-size: 20px;
+  left: 5%;
+  top: -89%;
+  transform: translate(4%, 20%);
+  padding: 14px;
+  background-image: linear-gradient( 
+178deg
+, #ffe74926 , #ff920c47);
+  border-radius: 30px;
+  cursor: pointer;
+}
+img.cludImge {
+  width: 100%;
+}
+p.cloudp {
+  position: absolute;
+  top: 28%;
+  padding: 45px;
+  font-size: 18px;
+}
+h1.cloudh1 {
+  position: absolute;
+  top: 28%;
+  left: 21%;
+  font-size: 29px;
+  color: #ce4721;
+}
+h1.cloudh2 {
+  position: absolute;
+  top: 28%;
+  left: 18%;
+  font-size: 28px;
+  color: #377235;
+}
+.Group11399 {
+  position: absolute;
+  top: 30%;
+  left: 26%;
+  cursor: pointer;
+}
+h1.allocations {
+  position: absolute;
+  font-size: 26px;
+  color: white;
+  top: 24%;
+  left: 33%;
+}
+h1.PrizeFounds {
+  position: absolute;
+  top: 20%;
+  left: 28%;
+  transform: translate(16%, 18%);
+  font-size: 47px;
+  color: #ce4721;
+}
+h1.quesh1 {
+  color: #ce4721;
+  font-size: 47px;
+}
+p.bushPaid {
+  position: absolute;
+  top: 42%;
+  left: 15%;
+  font-size: 21px;
+  padding-right: 30px;
+  color: white;
+}
+p.afterPaid {
+  position: absolute;
+  top: 62%;
+  left: 15%;
+  font-size: 21px;
+  padding-right: 30px;
+  color: white;
+}
+h1.teamName {
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  font-size: 25px;
+  color: #377235;
+}
+/* buy tickets popup */
+.buyticketpop {
+  display: none;
+  position: absolute;
+  width: 76%;
+  top: 24%;
+  left: 50%;
+  transform: translate(-50%, -36%);
+  transition: 0.25s;
+}
+.closeBotton {
+  width: 18%!important;
+  top: -5%;
+  position: absolute;
+  right: 11%;
+  cursor: pointer;
+}
+.insufficient {
+  display: inline-block;
+  text-align: left;
+  position: absolute;
+  top: 46%;
+  left: 53%;
+  transform: translate(-55%, 40%);
+}
+h1.insufficienth1 {
+  font-size: 24px;
+  color: #ce4721;
+}
+h1.insufficiendeth1 {
+  color: white;
+  font-size: 24px;
+}
+h1.costh1 {
+  font-size: 28px;
+  color: white;
+  padding-right: 10px;
+}
+h1.buyBotton {
+  display: inline-block;
+  position: absolute;
+  bottom: 4%;
+  left: 50%;
+  transform: translate(-47%, -0%);
+  color: #306a1fe7;
+  font-size: 33px;
+}
+/* .increament-decreament */
+.increament-decreament {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -14%);
+}
+
+.increament-decreament label {
+  position: absolute;
+  top: -86%;
+  left: 43%;
+  font-size: 45px;
+  font-family: "Cooper Black", serif;
+  color: #5ba701;
+}
+img.increament {
+  width: 23%;
+  margin-left: 15px;
+  cursor: pointer;
+}
+img.decreament {
+  width: 23%;
+  margin-right: 15px;
+  cursor: pointer;
+}
+/* end */
+}
+
+
+@media only screen and (max-width: 1240px) and (min-width:1140px)  {
+  h1, p{
+    font-family: "Cooper Black", serif;
+  }
+  .menuClass img {
+    width: 100px;
+  }
+  h1.dolarClass {
+    display: inline-block;
+    position: absolute;
+    top: 9%;
+    left: 41%;
+    font-size: 70px;
+    color: #ce4721;
+}
+.buyTicketButton img {
+  width: 26%;
+  padding-top: 59px;
+}
+.buyTicketButton h1 {
+  display: inline;
+  position: absolute;
+  top: 8%;
+  left: 6%;
+  color: #ce4721;
+  font-size: 35px;
+}
+h1.round61 {
+  position: absolute;
+  top: -13px;
+  z-index: 99;
+  font-size: 34px;
+  left: 32%;
+  color: #316a1f;
+}
+img.Group11253 {
+  width: 30%;
+  padding-top: 18px;
+}
+.winningNumber h1 {
+  font-size: 26px;
+  position: absolute;
+  display: inline;
+  left: 40px;
+  top: 54px;
+  color: #377235;
+  cursor: pointer;
+}
+img.Group12533 {
+  width: 40%;
+}
+.ticketImage h1 {
+  position: absolute;
+  display: inline-block;
+  left: 36%;
+  top: 62%;
+  transform: translate(38%, 85%);
+  font-size: 33px;
+  border-radius: 18%;
+  padding: 10px;
+  color: #447942;
+}
+
+.ticketImage h1:hover {
+  position: absolute;
+  display: inline-block;
+  left: 36%;
+  top: 62%;
+  transform: translate(38%, 85%);
+  font-size: 33px;
+  border-radius: 18%;
+  padding: 10px;
+  color: #316a1f;
+  cursor: pointer;
+  transition: 0.25s;
+  background-image: radial-gradient(#316a1f7a 0%, #87bb01 20%);
+}
+h1.buydeText {
+  color: #ce4721;
+  position: absolute;
+  font-size: 25px;
+  left: 5%;
+  top: -105%;
+  transform: translate(4%, 20%);
+  padding: 14px;
+}
+h1.buydeText:hover {
+  color: #316a1f;
+  position: absolute;
+  font-size: 25px;
+  left: 5%;
+  top: -105%;
+  transform: translate(4%, 20%);
+  padding: 14px;
+  background-image: linear-gradient( 
+178deg
+, #ffe74926 , #ff920c47);
+  border-radius: 30px;
+  cursor: pointer;
+}
+img.cludImge {
+  width: 100%;
+}
+p.cloudp {
+  position: absolute;
+  top: 30%;
+  padding: 45px;
+  font-size: 18px;
+}
+h1.cloudh1 {
+  position: absolute;
+  top: 28%;
+  left: 25%;
+  font-size: 30px;
+  color: #ce4721;
+}
+h1.cloudh2 {
+  position: absolute;
+  top: 28%;
+  left: 22%;
+  font-size: 28px;
+  color: #377235;
+}
+.Group11399 {
+  position: absolute;
+  top: 30%;
+  left: 26%;
+  cursor: pointer;
+}
+h1.allocations {
+  position: absolute;
+  font-size: 26px;
+  color: white;
+  top: 25%;
+  left: 34%;
+}
+h1.PrizeFounds {
+  position: absolute;
+  top: 20%;
+  left: 31%;
+  transform: translate(17%, 23%);
+  font-size: 47px;
+  color: #ce4721;
+}
+h1.quesh1 {
+  color: #ce4721;
+  font-size: 47px;
+}
+p.bushPaid {
+  position: absolute;
+  top: 42%;
+  left: 15%;
+  font-size: 21px;
+  padding-right: 30px;
+  color: white;
+}
+p.afterPaid {
+  position: absolute;
+  top: 62%;
+  left: 15%;
+  font-size: 21px;
+  padding-right: 30px;
+  color: white;
+}
+h1.teamName {
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  font-size: 28px;
+  color: #377235;
+}
+/* buy tickets popup */
+/* buy tickets popup */
+.buyticketpop {
+  display: none;
+  position: absolute;
+  width: 76%;
+  top: 33%;
+  left: 50%;
+  transform: translate(-50%, -36%);
+  transition: 0.25s;
+}
+.closeBotton {
+  width: 18%!important;
+  top: -5%;
+  position: absolute;
+  right: 11%;
+  cursor: pointer;
+}
+.insufficient {
+  display: inline-block;
+  text-align: left;
+  position: absolute;
+  top: 46%;
+  left: 52%;
+  transform: translate(-55%, 36%);
+}
+h1.insufficienth1 {
+  font-size: 24px;
+  color: #ce4721;
+}
+h1.insufficiendeth1 {
+  color: white;
+  font-size: 24px;
+}
+h1.costh1 {
+  font-size: 28px;
+  color: white;
+  padding-right: 10px;
+}
+h1.buyBotton {
+  display: inline-block;
+  position: absolute;
+  bottom: 4%;
+  left: 50%;
+  transform: translate(-47%, -0%);
+  color: #306a1fe7;
+  font-size: 33px;
+}
+/* .increament-decreament */
+.increament-decreament {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -14%);
+}
+
+.increament-decreament label {
+  position: absolute;
+  top: -101%;
+  left: 43%;
+  font-size: 45px;
+  font-family: "Cooper Black", serif;
+  color: #5ba701;
+}
+
+img.increament {
+  width: 20%;
+  margin-left: 15px;
+  cursor: pointer;
+}
+img.decreament {
+  width: 20%;
+  margin-right: 15px;
+  cursor: pointer;
+}
+/* end */
+}
+@media only screen and (max-width: 1920px) and (min-width:1440px)  {
+  h1, p{
+    font-family: "Cooper Black", serif;
+  }
+  .menuClass img {
+    width: 120px;
+  }
+  h1.dolarClass {
+    display: inline-block;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    font-size: 86px;
+    color: #ce4721;
+}
+.buyTicketButton img {
+  width: 26%;
+  padding-top: 59px;
+}
+.buyTicketButton h1 {
+  display: inline;
+  position: absolute;
+  top: -22%;
+  left: 7%;
+  color: #ce4721;
+  font-size: 40px;
+}
+h1.round61 {
+  position: absolute;
+  top: -25px;
+  z-index: 99;
+  font-size: 39px;
+  left: 33%;
+  color: #316a1f;
+}
+img.Group11253 {
+  width: 30%;
+  padding-top: 18px;
+}
+.winningNumber h1 {
+  font-size: 32px;
+  position: absolute;
+  display: inline;
+  left: 38px;
+  top: 61px;
+  color: #377235;
+  cursor: pointer;
+}
+img.Group12533 {
+  width: 40%;
+}
+.ticketImage h1 {
+  position: absolute;
+  display: inline-block;
+  left: 36%;
+  top: 60%;
+  transform: translate(38%, 85%);
+  font-size: 37px;
+  border-radius: 18%;
+  padding: 12px;
+  color: #447942;
+}
+
+.ticketImage h1:hover {
+  position: absolute;
+  display: inline-block;
+  left: 36%;
+  top: 60%;
+  transform: translate(38%, 85%);
+  font-size: 37px;
+  border-radius: 18%;
+  padding: 12px;
+  color: #316a1f;
+  cursor: pointer;
+  transition: 0.25s;
+  background-image: radial-gradient(#316a1f7a 0%, #87bb01 20%);
+}
+h1.buydeText {
+  color: #ce4721;
+  position: absolute;
+  font-size: 29px;
+  left: 4%;
+  top: -148%;
+  transform: translate(4%, 11%);
+  padding: 20px;
+}
+h1.buydeText:hover {
+  color: #316a1f;
+  position: absolute;
+  font-size: 29px;
+  left: 4%;
+  top: -148%;
+  transform: translate(4%, 11%);
+  padding: 20px;
+  background-image: linear-gradient( 
+178deg
+, #ffe74926 , #ff920c47);
+  border-radius: 30px;
+  cursor: pointer;
+}
+img.cludImge {
+  width: 100%;
+}
+p.cloudp {
+  position: absolute;
+  top: 30%;
+  padding: 56px;
+  font-size: 26px;
+}
+h1.cloudh1 {
+  position: absolute;
+  top: 28%;
+  left: 25%;
+  font-size: 35px;
+  color: #ce4721;
+}
+h1.cloudh2 {
+  position: absolute;
+  top: 28%;
+  left: 21%;
+  font-size: 35px;
+  color: #377235;
+}
+.Group11399 {
+  position: absolute;
+  top: 30%;
+  left: 26%;
+  cursor: pointer;
+}
+h1.allocations {
+  position: absolute;
+  font-size: 26px;
+  color: white;
+  top: 25%;
+  left: 34%;
+}
+h1.PrizeFounds {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, 23%);
+  font-size: 47px;
+  color: #ce4721;
+}
+h1.quesh1 {
+  color: #ce4721;
+  font-size: 47px;
+}
+p.bushPaid {
+  position: absolute;
+  top: 42%;
+  left: 15%;
+  font-size: 35px;
+  padding-right: 30px;
+  color: white;
+}
+p.afterPaid {
+  position: absolute;
+  top: 60%;
+  left: 15%;
+  font-size: 35px;
+  padding-right: 30px;
+  color: white;
+}
+h1.teamName {
+  position: absolute;
+  top: 61%;
+  left: 40%;
+  font-size: 33px;
+  color: #377235;
+}
+/* buy tickets popup */
+.buyticketpop {
+  display: none;
+  position: absolute;
+  width: 76%;
+  top: 44%;
+  left: 50%;
+  transform: translate(-50%, -36%);
+  transition: 0.25s;
+}
+.Group21396 {
+  width: 42%;
+}
+.closeBotton {
+  width: 12%!important;
+  top: -5%;
+  position: absolute;
+  right: 22%;
+  cursor: pointer;
+}
+.insufficient {
+  display: inline-block;
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-55%, 40%);
+}
+h1.insufficienth1 {
+  font-size: 30px;
+  color: #ce4721;
+}
+h1.insufficiendeth1 {
+  color: white;
+  font-size: 28px;
+}
+h1.costh1 {
+  font-size: 35px;
+  color: white;
+  padding-right: 65px;
+}
+h1.costprice {
+  color: white;
+  font-size: 36px;
+  padding-left: 63px;
+}
+h1.buyBotton {
+  display: inline-block;
+  position: absolute;
+  bottom: 3%;
+  left: 50%;
+  transform: translate(-47%, -0%);
+  color: #306a1fe7;
+  font-size: 50px;
+}
+/* .increament-decreament */
+.increament-decreament {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -14%);
+}
+
+.increament-decreament label {
+  position: absolute;
+  top: -85%;
+  left: 42%;
+  font-size: 60px;
+  font-family: "Cooper Black", serif;
+  color: #5ba701;
+}
+
+img.increament {
+  width: 30%;
+  margin-left: 16px;
+  cursor: pointer;
+}
+img.decreament {
+  width: 30%;
+  margin-right: 16px;
+  cursor: pointer;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 50px!important;
+  margin-top: 8%;
+  margin-right: 10%;
+  visibility: hidden;
+}
+/* end */
+/* Team */
+h1.teamName1 {
+  font-size: 22px;
+}
+h1.titlemember1 {
+  position: absolute;
+  top: 75%;
+  left: 38%;
+  font-size: 21px;
+  color: #f3f7f3;
+}
+h1.teamName2 {
+  font-size: 25px;
+  padding: 0px 20px;
+}
+h1.titlemember2 {
+  position: absolute;
+  top: 73%;
+  left: 1%;
+  font-size: 14px;
+  color: #f3f7f3;
+}
+h1.teamName3 {
+  font-size: 22px;
+  padding: 0px 15px;
+}
+h1.titlemember3 {
+  position: absolute;
+  top: 75%;
+  left: 3%;
+  font-size: 14px;
+  color: #f3f7f3;
+}
+h1.teamName4 {
+  font-size: 24px;
+  padding: 0px 15px;
+}
+h1.titlemember4 {
+  position: absolute;
+  top: 74%;
+  left: 5%;
+  font-size: 17px;
+  color: #f3f7f3;
+}
+}
